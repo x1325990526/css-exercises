@@ -5,6 +5,50 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* make logo in center of page */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+/* edit both */
+.header,.footer {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+.footer {
+  background-color: #eeeeee;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* remove underline */
+a {
+  color: gray;
+  text-decoration: none;
+
+}
+
+/* remove bullets */
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
 }
 
 img {
@@ -16,6 +60,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
