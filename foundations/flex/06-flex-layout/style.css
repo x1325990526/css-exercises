@@ -5,7 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  /* make logo in center of page */
+  /* make logo in the center of page */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +17,7 @@ body {
   
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
 
 }
 
@@ -29,7 +29,7 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
   justify-content: center;
   align-items: center;
 
@@ -48,7 +48,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 10px;
+  gap: 16px;
 }
 
 img {
@@ -60,7 +60,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 10px;
+  /* set button's top and bottom padding */
+  padding: 8px 16px;
 }
 
 input {
