@@ -46,9 +46,17 @@ body {
 }
 
 .sidebar a {
+  /* I forget the color */
+  color: white;
+
   font-size: 24px;
   text-decoration: none;
 }
+/*  Make list more comfortable*/
+li {
+  margin-bottom: 16px;
+}
+
 .sidebar ul{
   list-style: none;
   padding: 0;
